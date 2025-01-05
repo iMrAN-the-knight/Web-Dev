@@ -1,0 +1,23 @@
+nav>ul>li{
+text-align: center;
+display: inline;
+margin-right: 20 px;
+
+}
+nav> ul{
+text-decoration: none;
+text-align: center;
+}
+footer{
+    text-align: center;
+    margin-top: 40px;
+
+}
+article>figure>figcaption{
+    text margin-left: 30px;
+    text-wrap: 1px;
+}
+section>h3{
+    text-align: center;
+    display: flexbox;
+}

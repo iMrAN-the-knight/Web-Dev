@@ -1,0 +1,37 @@
+
+.headr{
+    height: 2500px;
+background-image: url('assassins_creed_unity_arno-wallpaper-2400x1350.jpg');
+    font-weight: bolder;
+    font-size: medium;
+    text-align: center;
+text-transform: initial;
+background-repeat: no-repeat;
+
+color: coral;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+h1{
+color: blue;
+font-weight: bolder;
+}
+
+.vvlog{
+margin: auto red 10px;
+border: 10px solid red;
+background-color: aquamarine;
+margin: 15px;
+}

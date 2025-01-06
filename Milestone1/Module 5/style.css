@@ -1,0 +1,14 @@
+.Parent{
+background-color: antiquewhite;
+padding: 25px;
+display: flex;
+
+}
+.child{
+border: 5px solid rebeccapurple;
+background: rgba(99, 143, 247, 0.998);
+font-size: large ;
+font-weight: 200;
+margin: 20px ;
+padding: 15px;
+}

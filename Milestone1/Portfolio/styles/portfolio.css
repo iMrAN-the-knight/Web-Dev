@@ -10,6 +10,12 @@
     "wdth" 100;
 }
 /* text color */
+.secondary-bg{
+  background-color: #FFF8F3;
+}
+.text-center{
+  text-align: center;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -24,6 +30,16 @@ color: #FFFFFF;
 padding: 18px 36px;
 border-radius: 5px;
 border: none;
+}
+.section-title{
+  font-size: 35px ;
+  font-weight: bold;
+  color: #181818;
+}
+.section-description{
+  font-size: 18px;
+  font-weight: 400px;
+  color: #757575;
 }
 .header{
   background-image: url('../portfolio-resources/images/developer.png'),url('../portfolio-resources/images/header_bg.png') ;
@@ -68,9 +84,13 @@ nav ul a{
 .banner-hi{
   font-size: 45px;
   font-weight: 600;
+  margin: 0 45px 0 0 ;
 }
 .banner-title{
-  font-size: 85px;
+ 
+  
+  margin-bottom: 20px;
+ font-size: 85px;
   font-weight: bold;
 }
 .banner-para{
@@ -81,5 +101,84 @@ nav ul a{
 .banner-pic{
   width: 584px;
   height: 676px;
+}
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.inside-section{
+  border: 3px #313131 solid ;
+  background-color: #ffffff;
+}
+  main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+  }
+/* style for about */
+.about{
+  border-radius: 10px;
+ padding: 130px 150px;
+ text-align: center;
 
+ 
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.about-item{
+  
+}
+
+.item-description{
+  color: #474747;
+  font-weight: bold;
+}
+/* What I Do */
+.skills-cont{
+ display: flex;
+ gap: 20px;
+ 
+}
+.skill{
+  
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
+}
+.section-des{
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+/* Resume */
+.resume-cont{
+display: flex;
+gap: 24px;
+}
+.resume-column-title{
+  font-weight: bold;
+  font-size: 30px;
+  color: #474747;
+}
+.experience{
+
+}
+.experience-title{
+  font-weight: bold;
+  font-size: 25px;
+  color: #474747;
+}
+.experience-sub-titile{
+  font-weight: 700px;
+  font-size: 20px;
+  color: #757575;
+}
+.experience-descripttion{
+  font-weight: bold;
+  font-size: 16px;
+  color: #757575;
+}
+.cv-btn{
+  margin-top: 20px;
 }

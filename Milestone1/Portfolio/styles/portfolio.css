@@ -23,7 +23,12 @@ font-size: 20px;
 color: #FFFFFF;
 padding: 18px 36px;
 border-radius: 5px;
-
+border: none;
+}
+.header{
+  background-image: url('../portfolio-resources/images/developer.png'),url('../portfolio-resources/images/header_bg.png') ;
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 }
 nav{
     display: flex;
@@ -49,4 +54,32 @@ nav ul li{
 nav ul a{
     text-decoration: none;
     font-size: 20px;
+}
+/* Banner styles */
+.banner{
+  display: flex;
+ justify-content: space-between;
+ margin:0 35px 0 230px;
+}
+.banner-content{
+  max-width: 580px ;
+}
+
+.banner-hi{
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-title{
+  font-size: 85px;
+  font-weight: bold;
+}
+.banner-para{
+  color: #757575;
+  font-size: 18px;
+  font-weight: 300px ;
+}
+.banner-pic{
+  width: 584px;
+  height: 676px;
+
 }

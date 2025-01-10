@@ -2,6 +2,12 @@
 background-color: antiquewhite;
 padding: 25px;
 display: flex;
+ gap: 50px;
+justify-content:  space-between;
+height: 350px;
+align-items: center;
+flex-direction: row;
+flex-wrap: wrap;
 
 }
 .child{
@@ -9,6 +15,6 @@ border: 5px solid rebeccapurple;
 background: rgba(99, 143, 247, 0.998);
 font-size: large ;
 font-weight: 200;
-margin: 20px ;
+/* margin: 20px ; */
 padding: 15px;
 }
